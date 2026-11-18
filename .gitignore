@@ -1,0 +1,31 @@
+# Secrets and local env
+.env
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local index, logs, and uploaded PDFs
+chroma_db/
+logs/
+data/
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
